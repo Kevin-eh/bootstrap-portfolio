@@ -1,0 +1,140 @@
+body {
+    background-image: url(../images/diamond_upholstery.png);
+    background-repeat: repeat;
+}
+
+.header{
+    box-sizing: border-box;
+margin-top: 0px;
+    margin: auto;
+    background: white;
+    width: 100%;
+    height: 70px;
+    margin-bottom:10px;
+    border-bottom: 2px gray solid;
+
+}
+
+.myname {
+    position: absolute;
+    left: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-left: 268px;
+    padding-top: 25px;
+    color: white;
+    background: #4aaaa5;
+    width: 300px;
+    float: left;
+    height:68px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.links
+  {margin: auto;
+      float: right;
+    position:relative;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: gray;
+    padding: 37px;
+    margin-right:255px;
+}
+
+  .aboutme 
+ {  margin: auto;
+    box-sizing: border-box;
+     clear:both;
+    background-color: white;
+    border: 1px silver solid;
+    max-width: 960px;
+    min-width:800px;
+    text-align: auto;
+    padding-bottom: 15px;
+    line-height: 1.1;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.text
+{   padding-left: 15px;
+    margin-bottom:12px
+}
+
+h2 {padding-left:15px;
+    color: #4aaaa5;
+    font-size: 24px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-top: 19px}
+
+hr {margin: 15px}
+
+#headshot {margin:15px;
+     margin-top: 5px;
+    float:left;
+    width:200px;
+    height:200px;}
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        box-sizing: border-box;
+        border-top: 8px solid #4aaaa5;
+        margin: auto;
+        background: gray;
+        width: 100%;
+        height: 75px;
+        margin-top:250px;
+        text-align: center;
+        color: white;
+    }
+
+    .portfolio {padding: 25px;}
+
+    .textbox {Width: 300px;
+        box-sizing: border-box;
+        clear:both;
+        background-color: white;
+        border: 1px silver solid;
+        width: 500px;
+        text-align: auto;
+    }
+
+    .formcity {
+        padding-left: 15px
+    }
+
+        
+    .bigtextbox {Width: 300px;
+        box-sizing: border-box;
+        clear:both;
+        text-align: left;
+        background-color: white;
+        border: 1px silver solid;
+        width: 500px;
+        height:300px;
+        padding:0px;
+        margin:0px
+    }
+
+    a:link,
+    a:visited,
+    a:active,
+    a:focus {color: gray; text-decoration:none
+    }
+
+    a:hover {color: black
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+      }
+      
+      #content-wrap {
+        padding-bottom: 2.5rem;    /* Footer height */
+      }

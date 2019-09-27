@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/diamond_upholstery.png);
+    background-repeat: repeat;
+}
+
+footer {background-color: gray;
+text-align: center;}
+
+.footertext {color: white}
+
+
+.myname {
+
+    color: white;
+    background: #4aaaa5;
+    width: 300px;
+    float: left;
+    height:68px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
